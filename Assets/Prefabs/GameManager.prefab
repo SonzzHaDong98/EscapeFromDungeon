@@ -1,0 +1,80 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &5161929971454054495
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5161929971454054493}
+  - component: {fileID: 5161929971454054494}
+  - component: {fileID: 1483316048}
+  m_Layer: 0
+  m_Name: GameManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5161929971454054493
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5161929971454054495}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5161929971454054494
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5161929971454054495}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dfeed4bcda1bdef4185b67d371341d67, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerSprites:
+  - {fileID: -666167137, guid: c3136fb17bdb5f34ea3b4e836d25a017, type: 3}
+  - {fileID: 1313797326, guid: c3136fb17bdb5f34ea3b4e836d25a017, type: 3}
+  weaponSprites:
+  - {fileID: -1935322861, guid: c3136fb17bdb5f34ea3b4e836d25a017, type: 3}
+  - {fileID: -1835234329, guid: c3136fb17bdb5f34ea3b4e836d25a017, type: 3}
+  - {fileID: 1489318617, guid: c3136fb17bdb5f34ea3b4e836d25a017, type: 3}
+  - {fileID: -1317886000, guid: c3136fb17bdb5f34ea3b4e836d25a017, type: 3}
+  - {fileID: 816122704, guid: c3136fb17bdb5f34ea3b4e836d25a017, type: 3}
+  - {fileID: -1199667782, guid: c3136fb17bdb5f34ea3b4e836d25a017, type: 3}
+  weaponPrices: 1e0000003c0000005a0000007800000096000000
+  xpTable: 050000000a0000000f00000014000000190000001e00000023000000280000002d00000032000000
+  player: {fileID: 0}
+  weapon: {fileID: 0}
+  floatingTextManager: {fileID: 0}
+  hitpointBar: {fileID: 0}
+  deathMenuAnim: {fileID: 0}
+  hud: {fileID: 0}
+  menu: {fileID: 0}
+  pesos: 0
+  experience: 0
+--- !u!114 &1483316048
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5161929971454054495}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5cb89eabbc701834da7c0922abfc0264, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
